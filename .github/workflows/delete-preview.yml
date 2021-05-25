@@ -22,6 +22,6 @@ jobs:
       - run: npm install -g yarn firebase-tools
       - name: delete preview
         run: |
-          firebase hosting:channel:delete ${{ github.event.pull_request.id }}
+          firebase hosting:channel:delete ${{ github.event.number }}
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PREVIEW_SAMPLE }}
