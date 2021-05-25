@@ -26,4 +26,4 @@ jobs:
         run: |
           firebase hosting:channel:delete ${{ github.event.number }}
         env:
-          FIREBASE_SERVICE_ACCOUNT_PREVIEW_SAMPLE: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PREVIEW_SAMPLE }}
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
