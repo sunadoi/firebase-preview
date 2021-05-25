@@ -22,8 +22,8 @@ jobs:
       - name: "echo"
         run: |
           echo "event: ${{ github.event }}"
-      - name: delete preview
-        run: |
-          firebase hosting:channel:delete ${{ github.event }}
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PREVIEW_SAMPLE }}
+      # - name: delete preview
+      #   run: |
+      #     firebase hosting:channel:delete ${{ github.event }}
+      #   env:
+      #     FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PREVIEW_SAMPLE }}
