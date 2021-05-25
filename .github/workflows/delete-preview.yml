@@ -2,7 +2,7 @@ name: delete preview url
 
 on:
   pull_request:
-    types: [closed]
+    types: [reopened, closed]
 
 jobs:
   build:
