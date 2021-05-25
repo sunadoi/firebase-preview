@@ -15,4 +15,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PREVIEW_SAMPLE }}'
           projectId: preview-sample
-          channelId: '${{GITHUB_EVENT_PATH | jq -r ".number"}}'
+          channelId: '${{GITHUB_EVENT_PATH}}'
