@@ -19,11 +19,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm install -g firebase-tools
-      # - name: "echo"
-      #   run: |
-      #     echo "event: ${{ github.event }}"
-      # - name: delete preview
-      #   run: |
-      #     firebase hosting:channel:delete ${{ github.event }}
-      #   env:
-      #     FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PREVIEW_SAMPLE }}
+      - name: "echo"
+        run: |
+          echo "event: ${{ github.event.number }}"
+      - name: delete preview
+        run: |
+          firebase hosting:channel:delete ${{ github.event.number }}
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PREVIEW_SAMPLE }}
