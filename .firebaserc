@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "preview-sample"
+  },
+  "targets": {
+    "preview-sample": {
+      "hosting": {
+        "preview-sample-storybook": [
+          "preview-sample-storybook"
+        ]
+      }
+    }
   }
 }
