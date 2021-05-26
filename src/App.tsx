@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Deploy完了!!!
+          preview確認
         </a>
       </header>
     </div>
