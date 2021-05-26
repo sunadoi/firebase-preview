@@ -5,7 +5,7 @@ on:
     types: [closed]
 
 jobs:
-  build:
+  delete:
     runs-on: ubuntu-latest
 
     strategy:
