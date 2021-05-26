@@ -5,6 +5,9 @@
   "targets": {
     "preview-sample": {
       "hosting": {
+        "preview-sample": [
+          "preview-sample"
+        ],
         "preview-sample-storybook": [
           "preview-sample-storybook"
         ]
