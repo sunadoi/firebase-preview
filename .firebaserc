@@ -1,6 +1,7 @@
 {
   "projects": {
-    "default": "preview-sample"
+    "default": "preview-sample",
+    "prod": "preview-sample-prod"
   },
   "targets": {
     "preview-sample": {
@@ -10,6 +11,13 @@
         ],
         "preview-sample-storybook": [
           "preview-sample-storybook"
+        ]
+      }
+    },
+    "preview-sample-prod": {
+      "hosting": {
+        "preview-sample-prod": [
+          "preview-sample-prod"
         ]
       }
     }
