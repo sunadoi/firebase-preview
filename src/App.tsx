@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          preview確認
+          prod環境
         </a>
       </header>
     </div>
