@@ -23,8 +23,6 @@ jobs:
       - run: echo $branch_name
       - name: preview deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
-        env:
-          BRANCH_NAME: ${{ github.ref }}
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PREVIEW_SAMPLE_TEST }}'
