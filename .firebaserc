@@ -1,6 +1,7 @@
 {
   "projects": {
-    "default": "preview-sample"
+    "default": "preview-sample",
+    "prod": "preview-sample-prod"
   },
   "targets": {
     "preview-sample": {
