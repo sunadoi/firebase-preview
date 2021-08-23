@@ -5,7 +5,7 @@ updates:
     open-pull-requests-limit: 1
     schedule:
       interval: "daily" # 動作確認したらmonthlyに変える
-      time: "10:50"
+      time: "11:00"
       timezone: "Asia/Tokyo"
     # ignore:
     #   - dependency-name: "*"
