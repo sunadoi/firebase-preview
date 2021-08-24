@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base", ":preserveSemverRanges"],
+  "extends": ["config:base"],
   "schedule": "before 2pm",
   "timezone": "Asia/Tokyo",
   "prHourlyLimit": 4,
