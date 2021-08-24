@@ -1,0 +1,12 @@
+{
+  "extends": ["config:base"],
+  "schedule": "before 1pm",
+  "timezone": "Asia/Tokyo",
+  "prHourlyLimit": 4,
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin"],
+      "groupName": "all minor and patch updates"
+    }
+  ]
+}
