@@ -1,12 +1,12 @@
 {
   "extends": ["config:base", ":preserveSemverRanges"],
-  "schedule": "before 1pm",
+  "schedule": "before 2pm",
   "timezone": "Asia/Tokyo",
   "prHourlyLimit": 4,
   "packageRules": [
     {
       "matchUpdateTypes": ["patch", "minor"],
-      "groupName": "all minor and patch updates"
+      "groupName": "update all minor and patch dependencies"
     }
   ]
 }
