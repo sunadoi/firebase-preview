@@ -1,12 +1,14 @@
 {
   "extends": ["config:base"],
-  "schedule": "before 3pm",
+  "schedule": "before 4pm",
   "timezone": "Asia/Tokyo",
   "prHourlyLimit": 4,
   "packageRules": [
     {
       "matchUpdateTypes": ["patch", "minor", "pin"],
-      "groupName": "update all minor and patch dependencies"
+      "groupName": "update all minor and patch dependencies",
+      "commitMessageAction": "Update",
+      "commitMessageTopic": "minor and patch dependencies"
     }
   ]
 }
